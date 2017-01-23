@@ -1,6 +1,5 @@
 package com.evollu.react.fcm;
 
-import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
@@ -272,7 +271,7 @@ public class FIRMessagingModule extends ReactContextBaseJavaModule implements Li
     }
 
     @Override
-    public void onActivityResult(Activity activity, int requestCode, int resultCode, Intent data) {
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
     }
 
     @Override
